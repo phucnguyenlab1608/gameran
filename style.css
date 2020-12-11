@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  border: 15px solid rgb(65, 87, 185);
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  background-image: url(././img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 40px 3px #2600ff;
+  position: relative;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  padding-top: 3%;
+  position: relative;
+}
+p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+#bat {
+  display: none;
+}
+.sound {
+  position: absolute;
+  left: 47.7%;
+  top: 33px;
+}
+.sound-button {
+  border: 2px solid #da2c2c;
+  background-color: rgb(75, 69, 69);
+  color: red;
+}
+.loading {
+  border: none;
+  width: 100px;
+  height: 34px;
+  border-radius: 5px;
+  color: white;
+  background-color: #2542cdbf;
+  position: absolute;
+  left: 48%;
+  top: 55%;
+  display: none;
+  z-index: 2;
+}
+.startGame{
+  border: none;
+  width: 185px;
+  height: 62px;
+  position: absolute;
+  left: 44%;
+  top: 36%;
+  z-index: 1;
+  color: white;
+  background: rgba(204, 53, 230, 0.91);
+  font-size: 28px;
+  border-radius: 13px;
+  font-family: emoji;
+  box-shadow: rgb(38, 0, 255) 0px 0px 8px 2px;
+  /* display:none; */
+}
